@@ -24,29 +24,6 @@ The dataset contains the following key features:
 
 ---
 
-## 🔍 Steps Undertaken
-1. **Exploratory Data Analysis (EDA)**:
-   - Loaded the dataset and performed an initial inspection using `.info()` and `.describe()`.
-   - Visualized relationships between features and the target variable using libraries like `seaborn` and `matplotlib`.
-
-2. **Data Cleaning**:
-   - Handled missing values:
-     - Filled missing `Item_Weight` values with the mean.
-     - Imputed missing `Outlet_Size` values with the mode, based on `Outlet_Type`.
-   - Standardized inconsistent entries in categorical features like `Item_Fat_Content`.
-
-3. **Feature Encoding**:
-   - Encoded categorical variables (e.g., `Outlet_Type`, `Item_Fat_Content`) using `LabelEncoder`.
-
-4. **Model Training**:
-   - Split the data into training and test sets using `train_test_split`.
-   - Trained two models:
-     - **Linear Regression**: A basic regression model.
-     - **XGBRegressor**: A gradient-boosting model for more robust predictions.
-   - Used the trained model to predict `Item_Outlet_Sales` on the test data (`x_test`).
-
----
-
 ## 📊 Libraries and Tools Used
 - **Data Manipulation**: `pandas`, `numpy`
 - **Visualization**: `matplotlib`, `seaborn`
