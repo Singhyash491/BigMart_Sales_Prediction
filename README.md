@@ -56,5 +56,3 @@ The dataset contains the following key features:
 
 ## ⚙️ Output
 - The trained model (`XGBRegressor`) generated predictions for the test data (`y_pred`), which were stored as a NumPy array. These predictions correspond to the target variable (`Item_Outlet_Sales`) for each row in the test set.
-
----
