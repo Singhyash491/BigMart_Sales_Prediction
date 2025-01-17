@@ -58,14 +58,3 @@ The dataset contains the following key features:
 - The trained model (`XGBRegressor`) generated predictions for the test data (`y_pred`), which were stored as a NumPy array. These predictions correspond to the target variable (`Item_Outlet_Sales`) for each row in the test set.
 
 ---
-
-## 🚀 Next Steps
-To further enhance the project:
-1. Evaluate the predictions using metrics like RMSE, MAE, and R².
-2. Visualize the relationship between actual and predicted sales.
-3. Optimize the hyperparameters of the models to improve accuracy.
-4. Add documentation and markdown explanations for better readability.
-
----
-
-Feel free to fork or modify this project as needed. Contributions are welcome!
