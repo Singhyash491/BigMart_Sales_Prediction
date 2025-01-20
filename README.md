@@ -1,6 +1,6 @@
 # Big Mart Sales Prediction
 
-## 📖 Overvie
+## 📖 Overview
 This project aims to predict the sales of products across various outlets in the Big Mart dataset. Using historical data, we employ machine learning techniques to build a regression model that predicts the target variable, `Item_Outlet_Sales`, based on features such as product type, visibility, outlet type, and more.
 
 ---
